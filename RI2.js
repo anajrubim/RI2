@@ -102,14 +102,14 @@ Estado: ${this.endereco.getEstado()}
 }
 
 let telefone = new Telefone('12', '99999-9999');
-let endereco = new Endereco('SP', 'São José dos Campos', 'Rua Acerola', '480');
+let endereco = new Endereco('SP', 'São José dos Campos', 'Rua do Moura', '999');
 let cliente = new Cliente('João Vitor Moura', telefone, 'joao.moura@gmail.com', endereco);
 
 console.log(cliente.descricao);
 
 let cliente2 = new Cliente('Enzo Gabriel', telefone, 'enzo.gabriel.code@gmail.com', endereco);
 
-let cliente3 = new Cliente('Ana Julia Rubim', telefone, 'ana.rubim@gmail.com', endereco);
+let cliente3 = new Cliente('Rebeca Lima', telefone, 'rebeca.lima@gmail.com', endereco);
 
 let cliente4 = new Cliente('Rafael Sette', telefone, 'rafael.sette@gmail.com', endereco);
 
